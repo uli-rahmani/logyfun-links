@@ -131,6 +131,7 @@
                 display: flex;
                 flex-direction: column;
                 gap: 16px;
+                text-align: center;
             }
 
             .link-btn {
@@ -201,6 +202,37 @@
                 </div>
 
                 <div class="links">
+                    <a
+                        href="https://logyfun.myr.id/plink/logyfun-online-english-conversation-class"
+                        target="_blank"
+                        class="link-btn"
+                        onclick="
+                            gtag('event', 'click_register', {
+                                event_category: 'CTA',
+                                event_label:
+                                    'Register English Conversation Button',
+                            })
+                        "
+                    >
+                        <i class="fa-solid fa-user-plus"></i>
+                        Register Now! <br />English Conversation Class
+                    </a>
+
+                    <a
+                        href="https://logyfun.myr.id/"
+                        target="_blank"
+                        class="link-btn"
+                        onclick="
+                            gtag('event', 'click_register', {
+                                event_category: 'CTA',
+                                event_label: 'Register Regular Class Button',
+                            })
+                        "
+                    >
+                        <i class="fa-solid fa-arrow-right"></i>
+                        Join Our Class Now!
+                    </a>
+
                     <a
                         href="https://forms.gle/GViF1tH8E9YinQnMA"
                         target="_blank"
